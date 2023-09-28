@@ -3,9 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
+
 body {
     width: 100%;
     height: auto;
@@ -30,12 +32,14 @@ ul li a {
     text-decoration: none;
     font-size: 16px
 }
-header{
+
+header {
     position: sticky;
     top: 0;
     left: 0;
     z-index: 999;
 }
+
 .navbar {
     width: 100%;
     height: 11vh;
@@ -190,7 +194,8 @@ ul li:hover ul.dropdown2 {
     border: solid 1px rgb(255, 255, 255);
     padding: 10px 20px;
 }
-.containerbox1{
+
+.containerbox1 {
     background-color: #131212dc;
 }
 
@@ -251,7 +256,7 @@ ul li:hover ul.dropdown2 {
 
 .containerbox2 {
     width: 100%;
-    height: 75vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -266,7 +271,7 @@ ul li:hover ul.dropdown2 {
 
 .containerchild22 {
     width: 90%;
-    height: 70%;
+    height: 55%;
 }
 
 .headparent {
@@ -456,17 +461,18 @@ ul li:hover ul.dropdown2 {
     background-color: white;
 }
 
-.containerbox4{
+.containerbox4 {
     width: 100%;
     height: 90vh;
     padding: 0 60px;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
     background-color: rgb(239, 239, 239);
     font-family: 'Poppins', sans-serif;
 }
-.containerchild41{
+
+.containerchild41 {
     width: 45%;
     height: 70%;
     padding: 0 25px;
@@ -475,47 +481,56 @@ ul li:hover ul.dropdown2 {
     justify-content: center;
     gap: 20px;
 }
-.containerchild41 h3{
-    color: rgb(34, 33, 33);;
+
+.containerchild41 h3 {
+    color: rgb(34, 33, 33);
+    ;
 }
-.containerchild41 p{
+
+.containerchild41 p {
     font-size: 14px;
-    color: rgb(34, 33, 33);;
+    color: rgb(34, 33, 33);
+    ;
 }
-.containerchild42{
+
+.containerchild42 {
     width: 33%;
     height: 72%;
     background-color: #191817;
 }
-.containerchild42 img{
+
+.containerchild42 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.containerbox5{
+.containerbox5 {
     width: 100%;
     height: 130vh;
     position: relative;
     font-family: 'Poppins', sans-serif;
 }
-.containerchild51{
+
+.containerchild51 {
     width: 100%;
     padding-top: 50px;
     height: 50%;
     text-align: center;
 }
+
 .containerchild52 {
     width: 100%;
     height: 48%;
 }
-.containerchild52 img{
+
+.containerchild52 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.position51{
+.position51 {
     width: 78%;
     height: 55%;
     padding: 60px 50px;
@@ -524,7 +539,8 @@ ul li:hover ul.dropdown2 {
     left: 11%;
     background-color: #ffffff;
 }
-.positionchild51{
+
+.positionchild51 {
     width: 45%;
     height: 100%;
     display: flex;
@@ -532,7 +548,7 @@ ul li:hover ul.dropdown2 {
     flex-direction: column;
 }
 
-.positionchild51 p{
+.positionchild51 p {
     color: rgb(34, 33, 33);
     font-size: 16px;
 }
@@ -548,31 +564,36 @@ ul li:hover ul.dropdown2 {
     font-size: 18px;
     font-weight: bold;
 }
-.child_button51 a p{
+
+.child_button51 a p {
     width: 40%;
     color: rgb(246, 241, 241);
     padding: 20px 30px;
     background-color: rgb(78, 31, 15);
 }
+
 .position52 {
     position: absolute;
     top: 26%;
     right: 15%;
 }
-.position52 img{
+
+.position52 img {
     object-fit: contain;
 }
+
 .position53 {
     position: absolute;
     top: 40%;
     right: 10%;
 }
-.position53 img{
+
+.position53 img {
     width: 85%;
     object-fit: contain;
 }
 
-.containerbox6{
+.containerbox6 {
     width: 100%;
     height: 85vh;
     display: flex;
@@ -580,7 +601,8 @@ ul li:hover ul.dropdown2 {
     align-items: center;
     font-family: 'Poppins', sans-serif;
 }
-.containerchild61{
+
+.containerchild61 {
     width: 80%;
     height: 80%;
     display: flex;
@@ -591,14 +613,16 @@ ul li:hover ul.dropdown2 {
     background-color: #fff;
     box-shadow: 5px 5px 30px rgb(169, 160, 160);
 }
-.child_head61 h1{
-color: #252424;
+
+.child_head61 h1 {
+    color: #252424;
 }
-.sliders_child61{
+
+.sliders_child61 {
     width: 80%;
     height: 50%;
-    background-color: #003e39;
 }
+
 .child_button51 {
     width: 100%;
     height: 15%;
@@ -609,14 +633,15 @@ color: #252424;
     text-decoration: none;
     font-size: 16px;
 }
-.child_button61 a p{
+
+.child_button61 a p {
     width: 100%;
     color: rgb(246, 241, 241);
     padding: 14px 35px;
     background-color: rgb(78, 31, 15);
 }
 
-footer{
+footer {
     width: 100%;
     height: 70vh;
     display: flex;
@@ -625,42 +650,51 @@ footer{
     background-color: rgb(78, 31, 15);
 }
 
-.child_footer{
+.child_footer {
     width: 85%;
     height: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.footer_child1{
+
+.footer_child1 {
     width: 15%;
     height: 90%;
 }
-.footer_child1 a{
+
+.footer_child1 a {
     text-decoration: none;
 }
-.child111,.child222{
+
+.child111,
+.child222 {
     width: 20% !important;
 }
-.footer_child1 img{
+
+.footer_child1 img {
     width: 80%;
     height: 15%;
     object-fit: contain;
 }
-.footer_child1 h3{
+
+.footer_child1 h3 {
     padding-top: 18px;
     color: #d29e00;
 }
-.footer_child1 p{
+
+.footer_child1 p {
     padding-top: 12px;
     font-size: 15px;
     color: rgb(244, 241, 241);
 }
-p.flexpara{
+
+p.flexpara {
     display: flex;
     gap: 10px;
 }
-.flexpara i{
+
+.flexpara i {
     color: #d5d3d9da;
 }
 
@@ -679,7 +713,8 @@ p.flexpara{
     right: 55px;
     z-index: 999;
 }
-.fixedbox:hover{
+
+.fixedbox:hover {
     cursor: pointer;
 }
 
@@ -702,4 +737,90 @@ p.flexpara{
 .fixedbox .imagess .text p {
     font-size: 14px;
     color: #ffac00;
+}
+
+
+
+
+.myMustafa .swiper-slide {
+    padding: 20px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+    background: #f7f5f5;
+    border-radius: 5px;
+}
+
+.myMustafa .swiper-slide p {
+    font-size: 13px;
+}
+
+.myMustafa .swiper-slide .option {
+    width: 100%;
+    height: 6vh;
+    padding: 0 15px;
+    background-color: #eaf3f2;
+    border: 1px solid rgb(132, 119, 119);
+}
+
+.myMustafa .swiper-slide .add_more_button {
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(78, 31, 15);
+}
+
+.myMustafa .swiper-slide .add_more_button a {
+    text-decoration: none;
+    color: white;
+}
+
+.myMustafa .swiper-slide .add_more_button:hover {
+    cursor: pointer;
+}
+
+.myMustafa .swiper-slide .option select {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: #eaf3f2;
+
+}
+
+
+.myMustafa2 .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+}
+
+.myMustafa2 .swiper-slide .swipew_images {
+    display: block;
+    width: 55%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.myMustafa2 .swiper-slide .swiper_text {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.myMustafa2 .swiper-slide p {
+    font-size: 12px;
+}
+
+.myMustafa2 .swiper-slide h4 {
+    font-size: 13px;
 }
