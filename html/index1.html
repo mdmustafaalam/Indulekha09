@@ -61,9 +61,9 @@
             </div>
             <div class="navbar3">
                 <ul>
-                    <!-- <li><a href="#" class="rouunds">
+                    <li><a href="#" class="rouunds">
                         <i class="fa-solid fa-user"></i>
-                        </a></li> -->
+                        </a></li>
                     <li><a href="#">
                             <i class="fa-sharp fa-solid fa-cart-shopping"></i>
                         </a></li>
@@ -315,7 +315,7 @@
                                 <h5>Ayurvedic</h5>
                             </div>
                         </div>
-                        <div class="div31_child1">
+                        <div class="div31_child1 media_gap1">
                             <div class="imgtag">
                                 <img src="../Photos/logo9.webp" alt="">
                             </div>
@@ -335,7 +335,7 @@
                                 <h5>Process</h5>
                             </div>
                         </div>
-                        <div class="div31_child1">
+                        <div class="div31_child1 media_gap">
                             <div class="imgtag">
                                 <img src="../Photos/logo11.webp" alt="">
                             </div>
@@ -408,7 +408,7 @@
 
         </div>
 
-        <div class="containerbox6">
+        <!-- <div class="containerbox6">
             <div class="containerchild61">
                 <div class="child_head61">
                     <h1>Over <span class="color" style="color: #fbb016;">94819</span> People Are Talking About Indulekha
@@ -635,7 +635,7 @@
                 </a>
             </div>
         </div>
-    </footer>
+    </footer> -->
     <a href="#">
         <div class="fixedbox">
             <div class="imagess">
@@ -657,10 +657,10 @@
             var swiper = new Swiper(".mySwiper", {
                 spaceBetween: 30,
                 centeredSlides: true,
-                autoplay: {
-                    delay: 2000,
-                    disableOnInteraction: false,
-                },
+                // autoplay: {
+                //     delay: 2000,
+                //     disableOnInteraction: false,
+                // },
                 pagination: {
                     el: ".swiper-pagination",
                     clickable: true,
@@ -673,22 +673,26 @@
             var swiper1 = new Swiper(".myMustafa", {
                 slidesPerView: 1,
                 spaceBetween: 10,
-                autoplay: {
-                    delay: 3500,
-                    disableOnInteraction: false,
-                },
+                // autoplay: {
+                //     delay: 3500,
+                //     disableOnInteraction: false,
+                // },
                 breakpoints: {
                     640: {
                         slidesPerView: 2,
                         spaceBetween: 20,
                     },
                     768: {
-                        slidesPerView: 3,
-                        spaceBetween: 40,
-                    },
-                    1024: {
-                        slidesPerView: 4,
+                        slidesPerView: 2,
                         spaceBetween: 50,
+                    },
+                    900: {
+                        slidesPerView: 3,
+                        spaceBetween: 50,
+                    },
+                    1250: {
+                        slidesPerView: 4,
+                        spaceBetween: 60,
                     },
 
                 },

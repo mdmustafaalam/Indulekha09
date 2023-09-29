@@ -26,7 +26,72 @@
     .navbar3{
         width: 20%;
     }
+    .containerbox2 {
+        height: 100vh;
+    }
+    .containerbox2 .headparent{
+        flex-direction: column;
+        gap: 27px;
+    }
+    .containerbox2 .headparent .child_header{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+    .containerbox2 .headparent .button{
+        width: 100%;
+    }
+
+    .containerbox3{
+        height: 100vh;
+    }
+    .containerchild31 , .dotbox_circle{
+        display: none;
+    }
     
+    .containerchild32{
+        width: 100%;
+        height: 100%;
+        gap: 15px;
+        padding: 0 25px;
+        justify-content: center;
+        position: unset;
+    }
+    .child_div31{
+        height: 50%;
+        display: block;
+        align-items: center;
+    }
+    .child_header31{
+        padding: 0 5px;
+    }
+    .first_div, .second_div {
+        display: block;
+        width: 100%;
+    }
+    .div31_child1{
+        padding: 15px 0;
+        width: 100%;
+    }
+    .child_button31{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .child_button31 a{
+        position: unset;
+    }
+    .containerbox4{
+        padding: 0 20px;
+        flex-direction: column;
+    }
+    .containerchild41{
+        width: 100%;
+    }
+    .containerchild42{
+        width: 80%;
+    }
 }
 @media only screen and (min-width: 600px) and (max-width: 900px){
     .navbar{
@@ -55,9 +120,149 @@
         display: block !important;
     }
     .navbar3{
-        width: 22%;
+        width: 16%;
     }
+    .containerchild21{
+        height: 30%;
+    }
+    .child_header{
+        width: 45%;
+    }
+    .button{
+        width: 48%;
+    }
+    .buttonchild a.butt1, .buttonchild a.butt2{
+        padding: 10px 21px;
+    }
+    .containerbox3{
+        height: 80vh;
+    }
+    .containerchild31 , .dotbox_circle{
+        display: none;
+    }
+    
+    .containerchild32{
+        width: 100%;
+        height: 100%;
+        gap: 25px;
+        padding: 0 40px;
+        justify-content: center;
+        position: unset;
+    }
+    .child_div31{
+        align-items: center;
+        padding: 0 30px;
+    }
+    .child_header31{
+        padding: 0 5px;
+    }
+    .first_div, .second_div {
+        width: 100%;
+    }
+    .div31_child1{
+        width: 50%;
+    }
+    .media_gap,.media_gap1{
+        justify-content: flex-end;
+    }
+    .media_gap1{
+        padding-right: 30px;
+    }
+    .child_button31{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .child_button31 a{
+        position: unset;
+    }
+    .containerbox4{
+        padding: 0 20px;
+        flex-direction: column;
+    }
+    .containerchild41{
+        width: 100%;
+    }
+    .containerchild42{
+        width: 600px;
+        height: 500px;
+    }
+    
 }
 @media only screen and (min-width: 900px) and (max-width: 1200px){
-    
+    .navbar{
+        height: 8vh;
+        gap: 23px;
+        justify-content: space-between;
+    }
+    .navbar2,.search,.navbar3 ul li.login{
+        display: none;
+    }
+    ul li a.rouunds{
+        display: block !important;
+    }
+    .navbar3 ul{
+        gap: 25px;
+    }
+    .navbar1 {
+        width: 60%;
+    }
+    .navbar1 ul{
+        justify-content: space-between;
+        padding: 0 25px 0 30px ;
+    }
+    ul li a.bars i{
+        font-size: 20px;
+        display: block !important;
+    }
+    .navbar3{
+        width: 12%;
+    }
+    .dotbox_circle{
+        display: none;
+    }
+    .containerbox4{
+        height: 80vh;
+        padding: 0 15px;
+    }
+    .containerchild41{
+        padding: 0;
+        width: 40%;
+    }
+    .containerchild42{
+        width: 50%;
+        height: 70%;
+    }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1400px){
+    .navbar{
+        height: 9vh;
+    }
+    .navbar3{
+        width: 15%;
+    }
+    .navbar3 ul{
+        padding: 0 15px;
+    }
+    .navbar2 ul{
+        gap: 20px;
+    }
+    ul li a{
+        font-size: 14px;
+    }
+    .navbar1{
+        width: 32%;
+    }
+    .dotbox_circle{
+        display: none;
+    }
+    .containerbox4{
+        padding: 0 25px;
+    }
+    .containerchild41{
+        width: 45%;
+    }
+    .containerchild42{
+        width: 45%;
+    }
 }
